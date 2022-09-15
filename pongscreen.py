@@ -9,9 +9,9 @@ class PongScreen(Turtle):
         self.color("white")
         self.penup()
         self.pensize(10)
-        self.goto((0, 250))
+        self.goto((0, 290))
         self.setheading(270)
-        while self.ycor() > -250:
+        while self.ycor() > -290:
             self.pendown()
             self.fd(20)
             self.penup()
